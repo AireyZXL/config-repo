@@ -19,4 +19,4 @@ spring:
 #       defaultZone: http://localhost:8761/eureka/
 server:
   port: 7001
-env: dev3
+env: dev3343242342
