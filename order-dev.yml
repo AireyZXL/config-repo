@@ -17,8 +17,8 @@ spring:
 #   client:
 #     service-url:
 #       defaultZone: http://localhost:8761/eureka/
-# server:
-#   port: 7001
+server:
+  port: 7001
 env: dev
 girl: 
   name: lili
