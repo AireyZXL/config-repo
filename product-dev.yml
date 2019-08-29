@@ -13,5 +13,8 @@ spring:
     port: 5672
     username: root
     password: root
+  redis:
+    host: 192.168.88.175
+    port: 6379
 server:
   port: 7002
