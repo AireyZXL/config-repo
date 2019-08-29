@@ -16,8 +16,7 @@ zuul:
   #简洁写法
     product: /myProduct/**
   ignored-patterns:
-    - /product/product/listForOrder
-    - /myProduct/product/listForOrder
+    - /**/product/listForOrder
 management:
   security:
     enabled: false
