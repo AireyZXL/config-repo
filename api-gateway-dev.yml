@@ -1,2 +1,9 @@
 server:
   port: 7009
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
