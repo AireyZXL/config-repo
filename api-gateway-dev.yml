@@ -15,6 +15,9 @@ zuul:
 #      serviceId: product
   #简洁写法
     product: /myProduct/**
+  ignored-patterns:
+    - /product/product/listForOrder
+    - /myProduct/product/listForOrder
 management:
   security:
     enabled: false
