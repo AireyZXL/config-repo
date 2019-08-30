@@ -1,1 +1,17 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root123
+    url: jdbc:mysql://192.168.88.175:3306/SpringCloud_Sell?characterEncoding=utf8&useSSL=true
+  jpa:
+    show-sql: true
+  redis:
+    host: 192.168.88.175
+    port: 6379
+server:
+  port: 7007
+env: dev
 
