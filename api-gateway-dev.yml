@@ -9,12 +9,14 @@ hystrix:
             timeoutInMilliseconds: 60000
 zuul:
   routes:
-    #/myProduct/product/list -> /product/product/list
-#    myProduct:
-#      path: /myProduct/**
-#      serviceId: product
-  #简洁写法
-    product: /myProduct/**
+    /myProduct/product/list -> /product/product/list
+        myProduct:
+          path: /myProduct/**
+          serviceId: product
+          #获取cookie信息
+          sensitiveHeaders:
+    #简洁写法
+    #product: /myProduct/**
   #排除某些路由
   ignored-patterns:
     - /**/product/listForOrder
