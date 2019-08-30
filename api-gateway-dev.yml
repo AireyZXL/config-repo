@@ -9,7 +9,7 @@ hystrix:
             timeoutInMilliseconds: 60000
 zuul:
   routes:
-    /myProduct/product/list -> /product/product/list
+    #/myProduct/product/list -> /product/product/list
         myProduct:
           path: /myProduct/**
           serviceId: product
