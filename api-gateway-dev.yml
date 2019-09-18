@@ -7,9 +7,9 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
-ribbon:
-  ReadTimeout: 6000
-  SocketTimeout: 6000
+# ribbon:
+#   ReadTimeout: 6000
+#   SocketTimeout: 6000
 zuul:
   #全部服务忽略敏感头（全部服务都可传递cookie）
   sensitive-headers: 
